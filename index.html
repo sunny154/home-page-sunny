@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+     <title>Home page </title> 
+    <link rel="stylesheet" href="style.css">
+   </head>
+<body>
+  <nav>
+    <div class="nav-content">
+      <div class="logo">
+        <a href="#">SUNNY SAINI</a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="https://sunny154.github.io/About-sunny/">About</a></li>
+        <li><a href="https://sunny154.github.io/contact-new/">Contact</a></li>
+        <li><a href="https://sunny154.github.io/sunny-portfolio/">Portfolio</a></li>
+        
+           </ul>
+    </div>
+  </nav>
+  <section class="home"></section>
+  
+  </div>
+  <section class="headline">
+    <h1>Sunny's Portfolio</h1>
+    <p>Hello, I am Sunny, a passionate web developer with a keen interest in creating dynamic and responsive websites.
+     I enjoy working with HTML, CSS, and JavaScript to bring ideas to life.</p>
+  </section>
+  <section class="features">
+    <div class="feature-container">
+      <img src="mdulogo1.png" alt="mdu logo">
+      <h2>Study at MDU</h2>
+      <p>Maharshi Dayanand University, located in Rohtak, Haryana, is a renowned educational institution in India, offering a wide range of undergraduate, postgraduate, and doctoral programs.</p>
+    </div>
+    <div class="feature-container">
+      <img src="diflogo.jpg" alt="insta page">
+      <h2>Contact me</h2>
+      <p>Instagram is my visual diary, Facebook my social hub, and Twitter my platform for sharing thoughts. Join me on these pages for a diverse digital experience.</p>
+    </div>
+    <div class="feature-container">
+      <img src="githublogo.jpg" alt="github logo">
+      <h2>GITHUB</h2>
+      <p>My GitHub profile showcases my coding skills, projects, and contributions to open-source. Connect with me there to collaborate and share a passion for programming.</p>
+    </div>
+  </section>
+  <script>
+    let nav = document.querySelector("nav");
+      window.onscroll = function() {
+        if(document.documentElement.scrollTop > 20){
+          nav.classList.add("sticky");
+        }else {
+          nav.classList.remove("sticky");
+        }
+      }
+    </script>
+    
+
+		<footer class="footer-distributed">
+
+			
+
+			<div class="footer-left">
+
+				<p class="footer-links">
+					<a class="link-1" href="#">Home</a>
+
+					
+
+					<a href="https://sunny154.github.io/sunny-portfolio/">Portfolio</a>
+
+					<a href="https://sunny154.github.io/About-sunny/">About</a>
+
+					
+					<a href="https://sunny154.github.io/contact-new/">Contact</a>
+				</p>
+
+				<p>sunny saini &copy; 2005</p>
+			</div>
+
+		</footer>
+  
+
+</body>
+</html>
